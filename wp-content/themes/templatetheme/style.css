@@ -1,0 +1,167 @@
+/*
+ Theme Name:   Design Garage Template
+ Theme URI:    https://www.understrap.com
+ Description:  UnderStrap Child Theme
+ Author:       Design Garage
+ Author URI:   http://www.designgarage.co.nz
+ Template:     understrap
+ Version:      0.3.5
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  understrap-child
+ Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+ GitHub Theme URI: holger1411/understrap-child.
+*/
+/*****************************
+GENERAL SETTINGS
+ ******************************/
+a:hover {
+    text-decoration: none;
+}
+/******************************
+HEADER
+*******************************/
+#wrapper-navbar {
+    position: relative;
+}
+#wrapper-navbar .custom-logo-link {
+    margin: 0;
+    padding: 0;
+}
+.bg-dark {
+    background-color: #000000 !important;
+}
+#main-menu {
+    width: 100%;
+}
+.navbar-nav {
+    justify-content: flex-end;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 700;
+    color: #ffffff;
+}
+/****************************
+MAIN CONTENT AREA
+****************************/
+.nopadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.page-banner-wrapper img {
+    width: 100%;
+    height: auto;
+}
+#main {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+/**************************
+FOOTER
+***************************/
+#footer {
+    position: relative;
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+#footer h3 {
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+#footer-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#footer-menu li a {
+    padding: 0;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+}
+#footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#footer ul.contacts li a {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+}
+#footer ul.contacts li address {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#footer ul.social-media li {
+    display: inline-block;
+    margin: 0 5px;
+}
+#footer ul.social-media li:first-child {
+    margin-left: 0;
+}
+#footer ul.social-media li a {
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 26px;
+}
+#copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+#copyright a {
+    color: #000000;
+}
+.wrapper {
+    padding: 0;
+}
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 100%;
+    }
+    #main {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #main-menu {
+        padding-top: 15px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .social-media-col {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .social-media-col, .contact-details-col {
+        margin-top: 20px;
+    }
+    #wrapper-navbar .custom-logo-link img {
+        width: 200px;
+    }
+    #main {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #copyright span {
+        display: block;
+        margin-top: 10px;
+    }
+}
