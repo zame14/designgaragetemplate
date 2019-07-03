@@ -1,0 +1,242 @@
+/*
+ Theme Name:   Design Garage Template
+ Theme URI:    https://www.understrap.com
+ Description:  UnderStrap Child Theme
+ Author:       Design Garage
+ Author URI:   http://www.designgarage.co.nz
+ Template:     understrap
+ Version:      0.5.3
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  understrap-child
+ Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+ GitHub Theme URI: holger1411/understrap-child
+*/
+body {
+    font-size: 16px;
+    line-height: 22px;
+}
+p {
+    margin-bottom: 10px;
+}
+a {
+    color: #777777;
+}
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+}
+.bg-primary {
+    background-color: #ffffff !important;
+}
+#header {
+    margin-top: 20px;
+}
+#header .logo-wrapper {
+    display: inline-block;
+    position: relative;
+    z-index: 99;
+}
+#header .inner-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#wrapper-navbar {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+}
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    padding: 0;
+}
+#wrapper-navbar .custom-logo-link {
+    margin: 0;
+    padding: 0;
+}
+.bg-dark {
+    background-color: #ffffff !important;
+}
+#main-menu {
+    width: 100%;
+}
+.navbar-nav {
+    justify-content: flex-end;
+}
+.navbar-dark .navbar-nav .menu-item a{
+    color: #000000;
+    padding: 0 8px;
+}
+.home-banner-wrapper {
+    padding: 0;
+    margin-bottom: 50px;
+}
+.nopadding {
+    padding: 0;
+}
+.page-title {
+    padding: 30px;
+    background-color: #ebebeb;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.page-title h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.blog h2.entry-title, .single-post .entry-title, .archive .entry-title {
+    background: transparent !important;
+    text-align: left !important;
+    padding-left: 0 !important;
+    color: #000000 !important;
+}
+.blog .entry-title a {
+    color: #000000 !important;
+}
+.blog article.post {
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.blog article.post:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+.blog-image-wrapper {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.blog-image-wrapper.hide {
+    display: none;
+}
+.blog-image-wrapper img {
+    padding-right: 20px;
+}
+.blog-content-wrapper {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+.blog-content-wrapper.hide {
+    display: block;
+    width: 100%;
+}
+.blog-content-wrapper .entry-title {
+    padding-top: 0;
+}
+#single-wrapper article.post img {
+    padding-bottom: 20px;
+}
+#footer {
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+#footer h3 {
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+#footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#footer a {
+    color: #ffffff;
+    line-height: 30px;
+}
+#footer .contact-details-col span {
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+}
+#footer ul.contacts {
+    margin-left: -10px;
+}
+#footer ul.social-media li a {
+    font-size: 26px;
+    line-height: 26px;
+}
+#copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    #header .inner-wrapper {
+        display: block;
+    }
+    .navbar-toggler {
+        background: #000000;
+        border-radius: 0;
+        padding: 3px 5px;
+        margin-right: 15px;
+    }
+    #main-menu {
+        margin-top: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #ebebeb;
+        text-align: center;
+    }
+    .navbar {
+        display: block;
+        text-align: right;
+        margin-top: -50px;
+    }
+    .navbar-dark .navbar-nav .menu-item {
+        margin: 10px 0;
+    }
+    .m_nopadding {
+        padding: 0;
+    }
+    #header .logo-wrapper {
+        margin-left: 15px;
+    }
+    .footer-menu-col {
+        margin-bottom: 20px;
+    }
+    .home-banner-wrapper {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 575px) {
+    body {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .blog-image-wrapper, .blog-content-wrapper {
+        display: block;
+        width: 100%;
+    }
+    .contact-details-col {
+        margin-bottom: 20px;
+    }
+    #footer h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    #copyright span {
+        display: block;
+        margin-top: 5px;
+    }
+}
